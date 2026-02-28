@@ -2,7 +2,15 @@
 
 An advanced, AI-powered web application security testing platform focusing on the OWASP Top 10 vulnerabilities.
 
-![SecureAI Demo](./demo.webp)
+### Application Previews
+<div style="display: flex; gap: 10px; margin-bottom: 20px;">
+  <img src="./login.png" width="48%" alt="Secure Login Interface">
+  <img src="./dashboard.png" width="48%" alt="Security Dashboard & Metrics">
+</div>
+<div style="display: flex; gap: 10px; margin-bottom: 20px;">
+  <img src="./newscan.png" width="48%" alt="Configuring a New Scan with AI Features">
+  <img src="./scanresult.png" width="48%" alt="AI Risk Analysis & Scan Results">
+</div>
 
 ## ✨ Advanced AI-Native Features
 
