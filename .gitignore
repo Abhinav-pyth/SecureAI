@@ -1,0 +1,18 @@
+# Ignore all node_modules in any subfolder
+node_modules/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+
+# IDE files
+.vscode/
+.idea/
+
+# Environment variables
+.env
+*.local
