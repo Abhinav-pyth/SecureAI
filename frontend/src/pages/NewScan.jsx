@@ -94,6 +94,18 @@ export default function NewScan() {
                     </div>
                 </div>
 
+                {/* AI Features */}
+                <div className="card mb-24" style={{ borderColor: 'rgba(0,212,255,0.2)', background: 'linear-gradient(145deg, rgba(0,212,255,0.05) 0%, rgba(10,14,26,1) 100%)' }}>
+                    <h2 style={{ fontSize: '1rem', color: 'var(--accent-cyan)', marginBottom: 12 }}>
+                        ✨ Advanced AI Penetration Features
+                    </h2>
+                    <ul style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', paddingLeft: 16, display: 'flex', flexDirection: 'column', gap: 8 }}>
+                        <li><strong>Semantic Leak & Logic Detection:</strong> Analyzes raw DOM/JS for leaked secrets, dev comments, and bypassable logic.</li>
+                        <li><strong>Zero-Day Payload Mutator:</strong> Dynamically rewrites dropped SQLi/XSS payloads using AI to evade Web Application Firewalls (WAF).</li>
+                        <li><strong>AI Auto-Patching:</strong> Infers the target tech stack and provides drop-in code snippets to remediate any discovered vulnerabilities.</li>
+                    </ul>
+                </div>
+
                 {/* Warning */}
                 <div className="card" style={{ background: 'rgba(245,158,11,0.05)', borderColor: 'rgba(245,158,11,0.2)' }}>
                     <div className="flex items-center gap-12">
